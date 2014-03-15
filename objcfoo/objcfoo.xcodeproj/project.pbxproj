@@ -32,12 +32,8 @@
 		4E2446B1182B76F400F1C072 /* objcfoo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objcfoo-Prefix.pch"; sourceTree = "<group>"; };
 		4E2446B2182B76F400F1C072 /* ObjCFoo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCFoo.h; sourceTree = "<group>"; };
 		4E2446B4182B76F400F1C072 /* ObjCFoo.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjCFoo.mm; sourceTree = "<group>"; };
-		4E2446BB182B76F400F1C072 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4E2446BE182B76F400F1C072 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		4E2446C5182B76F400F1C072 /* objcfooTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "objcfooTests-Info.plist"; sourceTree = "<group>"; };
-		4E2446C7182B76F400F1C072 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4E2446C9182B76F400F1C072 /* objcfooTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objcfooTests.m; sourceTree = "<group>"; };
-		4E244716182B7B3F00F1C072 /* libfoo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfoo.a; path = "../../../../Users/eito/Library/Developer/Xcode/DerivedData/wstest-agpxgpermxhxbjgiifldwvcuqqow/Build/Products/Debug-iphoneos/libfoo.a"; sourceTree = "<group>"; };
+		4E244716182B7B3F00F1C072 /* libfoo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfoo.a; path = "../../../../wstest-agpxgpermxhxbjgiifldwvcuqqow/Build/Products/Debug-iphoneos/libfoo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				4E2446AF182B76F400F1C072 /* objcfoo */,
-				4E2446C3182B76F400F1C072 /* objcfooTests */,
 				4E2446AC182B76F400F1C072 /* Frameworks */,
 				4E2446AB182B76F400F1C072 /* Products */,
 			);
@@ -76,7 +71,6 @@
 			children = (
 				4E244716182B7B3F00F1C072 /* libfoo.a */,
 				4E2446AD182B76F400F1C072 /* Foundation.framework */,
-				4E2446BB182B76F400F1C072 /* XCTest.framework */,
 				4E2446BE182B76F400F1C072 /* UIKit.framework */,
 			);
 			name = Frameworks;
@@ -96,24 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				4E2446B1182B76F400F1C072 /* objcfoo-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4E2446C3182B76F400F1C072 /* objcfooTests */ = {
-			isa = PBXGroup;
-			children = (
-				4E2446C9182B76F400F1C072 /* objcfooTests.m */,
-				4E2446C4182B76F400F1C072 /* Supporting Files */,
-			);
-			path = objcfooTests;
-			sourceTree = "<group>";
-		};
-		4E2446C4182B76F400F1C072 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4E2446C5182B76F400F1C072 /* objcfooTests-Info.plist */,
-				4E2446C6182B76F400F1C072 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -174,17 +150,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		4E2446C6182B76F400F1C072 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4E2446C7182B76F400F1C072 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4E2446CB182B76F400F1C072 /* Debug */ = {

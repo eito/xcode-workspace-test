@@ -31,11 +31,7 @@
 		4E24467F182B750E00F1C072 /* foo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "foo-Prefix.pch"; sourceTree = "<group>"; };
 		4E244680182B750E00F1C072 /* foo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = foo.h; sourceTree = "<group>"; };
 		4E244682182B750E00F1C072 /* foo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = foo.cpp; sourceTree = "<group>"; };
-		4E244689182B750E00F1C072 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4E24468C182B750E00F1C072 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		4E244693182B750E00F1C072 /* fooTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fooTests-Info.plist"; sourceTree = "<group>"; };
-		4E244695182B750E00F1C072 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4E244697182B750E00F1C072 /* fooTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fooTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				4E24467D182B750E00F1C072 /* foo */,
-				4E244691182B750E00F1C072 /* fooTests */,
 				4E24467A182B750E00F1C072 /* Frameworks */,
 				4E244679182B750E00F1C072 /* Products */,
 			);
@@ -72,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				4E24467B182B750E00F1C072 /* Foundation.framework */,
-				4E244689182B750E00F1C072 /* XCTest.framework */,
 				4E24468C182B750E00F1C072 /* UIKit.framework */,
 			);
 			name = Frameworks;
@@ -92,24 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				4E24467F182B750E00F1C072 /* foo-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4E244691182B750E00F1C072 /* fooTests */ = {
-			isa = PBXGroup;
-			children = (
-				4E244697182B750E00F1C072 /* fooTests.m */,
-				4E244692182B750E00F1C072 /* Supporting Files */,
-			);
-			path = fooTests;
-			sourceTree = "<group>";
-		};
-		4E244692182B750E00F1C072 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4E244693182B750E00F1C072 /* fooTests-Info.plist */,
-				4E244694182B750E00F1C072 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -170,17 +146,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		4E244694182B750E00F1C072 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4E244695182B750E00F1C072 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4E244699182B750E00F1C072 /* Debug */ = {
@@ -297,6 +262,7 @@
 				4E24469D182B750E00F1C072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
