@@ -53,7 +53,7 @@
 }
 
 - (NSString*)description {
-    NSString *objcString = @"objcfoo3";
+    NSString *objcString = @"objcfoo4";
     NSString *utf8String = [NSString stringWithUTF8String:_foo->to_string().c_str()];
     return [NSString stringWithFormat:@"%@-%@", objcString, utf8String];
 }
